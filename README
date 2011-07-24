@@ -1,0 +1,6 @@
+Piramido
+
+La pequeña aplicación que desarrolle para Android es un solitario de domino.
+
+El juego consiste en revolver las fichas boca abajo, acomodarlas en forma de pirámide y destapar la ficha de hasta arriba. Con esta ficha se debe destapar la que va en la posición de la ficha correspondiente. Así hasta que salga la ficha doble cero. Lo cual evita que se puedan sacar más fichas.
+Los aspectos programados fueron

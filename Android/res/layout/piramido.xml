@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >/
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:id="@+id/textoArriba"
+    />
+<!--    Fila 0-->
+
+<!--    Boton 0-->
+<ImageButton 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/textoArriba"
+	
+	android:id="@+id/bo0"	
+	/> 
+<!--    Fila 1-->
+<TextView      
+android:layout_width="1dip"
+    android:layout_height="70dip" 
+    android:layout_below="@id/bo0"
+    android:text="."
+    android:layout_centerHorizontal="true"
+    android:id="@+id/fila1"
+    />
+<!--    Boton 1-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/bo0"		
+	android:layout_toLeftOf="@id/fila1"
+
+	android:id="@+id/bo1"	
+	/> 
+	
+	<!--    Boton 2-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo0" 	
+	android:layout_toRightOf="@id/fila1"
+	android:id="@+id/bo2"	
+	/> 
+<!--    Fila 2-->
+<!--    Boton 4-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/fila1"	
+	android:layout_centerHorizontal="true"
+	android:id="@+id/bo4"	
+	/> 
+<!--    Boton 3-->
+<ImageButton 
+android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo1"
+	android:layout_toLeftOf="@id/bo4"
+	android:id="@+id/bo3"	
+	/> 
+	<!--    Boton 5-->
+<ImageButton 
+android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo2" 	
+	android:layout_toRightOf="@id/bo4"
+	android:id="@+id/bo5"	
+	/> 
+<!--    Fila 3-->
+<TextView      
+	android:layout_width="1dip"
+    android:layout_height="70dip" 
+    android:layout_below="@id/bo4"
+    android:text="."
+    android:layout_centerHorizontal="true"
+    android:id="@+id/fila3"
+    />
+<!--    Boton 7-->
+<ImageButton
+ android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/bo4"		
+	android:layout_toLeftOf="@id/fila3"
+	android:id="@+id/bo7"	
+	
+	/> 
+	
+<!--    Boton 8-->
+<ImageButton 
+android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo4" 	
+	android:layout_toRightOf="@id/fila3"
+	android:id="@+id/bo8"	
+	/>  
+<!--    Boton 9-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo4" 	
+	android:layout_toRightOf="@id/bo8"
+	android:id="@+id/bo9"	
+	
+	/>   
+ <!--    Boton 6-->
+<ImageButton 
+
+android:onClick="botonazo" 
+
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo4" 	
+	android:layout_toLeftOf="@id/bo7"
+	android:id="@+id/bo6"	
+	/>   
+<!--    Fila 4-->
+<!--    Boton 12-->
+<ImageButton 
+android:onClick="botonazo" 
+	
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/fila3"	
+	android:layout_centerHorizontal="true"
+	android:id="@+id/bo12"	
+	/> 
+<!--    Boton 11-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila3"
+	android:layout_toLeftOf="@id/bo12"
+	android:id="@+id/bo11"	
+	/> 
+	<!--    Boton 13-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila3" 	
+	android:layout_toRightOf="@id/bo12"
+	android:id="@+id/bo13"	
+	/> 
+ <!--    Boton 14-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila3" 	
+	android:layout_toRightOf="@id/bo13"
+	android:id="@+id/bo14"	
+	/>   
+ <!--    Boton 10-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila3" 	
+	android:layout_toLeftOf="@id/bo11"
+	android:id="@+id/bo10"	
+	/>     
+<!--    Fila 5-->
+<TextView      
+	android:layout_width="1dip"
+    android:layout_height="70dip" 
+    android:layout_below="@id/bo12"
+    android:text="."
+    android:layout_centerHorizontal="true"
+    android:id="@+id/fila5"
+    />
+<!--    Boton 17-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/bo12"		
+	android:layout_toLeftOf="@id/fila5"
+	android:id="@+id/bo17"	
+	/> 
+	
+<!--    Boton 18-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo12" 	
+	android:layout_toRightOf="@id/fila5"
+	android:id="@+id/bo18"	
+	/>  
+<!--    Boton 19-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo12" 	
+	android:layout_toRightOf="@id/bo18"
+	android:id="@+id/bo19"	
+	/>   
+ <!--    Boton 16-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo12" 	
+	android:layout_toLeftOf="@id/bo17"
+	android:id="@+id/bo16"	
+	/>      
+<!--    Boton 20-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo12" 	
+	android:layout_toRightOf="@id/bo19"
+	android:id="@+id/bo20"	
+	/>   
+ <!--    Boton 15-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo12" 	
+	android:layout_toLeftOf="@id/bo16"
+	android:id="@+id/bo15"	
+	/>
+<!--    Fila 6-->
+<!--    Boton 24-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/fila5"	
+	android:layout_centerHorizontal="true"
+	android:id="@+id/bo24"	
+	/> 
+<!--    Boton 23-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila5"
+	android:layout_toLeftOf="@id/bo24"
+	android:id="@+id/bo23"	
+	/> 
+	<!--    Boton 25-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila5" 	
+	android:layout_toRightOf="@id/bo24"
+	android:id="@+id/bo25"	
+	/> 
+ <!--    Boton 26-->
+<ImageButton 
+android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila5" 	
+	android:layout_toRightOf="@id/bo25"
+	android:id="@+id/bo26"	
+	/>   
+ <!--    Boton 22-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila5" 	
+	android:layout_toLeftOf="@id/bo23"
+	android:id="@+id/bo22"	
+	/>	
+ <!--    Boton 27-->
+<ImageButton
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila5" 	
+	android:layout_toRightOf="@id/bo26"
+	android:id="@+id/bo27"	
+	/>   
+ <!--    Boton 21-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila5" 	
+	android:layout_toLeftOf="@id/bo22"
+	android:id="@+id/bo21"	
+	/>		 
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/bo22" 	
+    android:text="@string/hello"
+    android:id="@+id/textoFondo"
+    /> 
+     <!--    Boton 28-->
+<ImageButton 
+	android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/fila1" 
+	android:layout_alignParentLeft="true"
+	android:layout_marginRight="30dip"
+	android:layout_marginLeft="30dip"
+	android:id="@+id/bo28"	
+	/>	
+</RelativeLayout>
+</ScrollView>

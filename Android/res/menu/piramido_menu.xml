@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+	android:id="@+id/nuevo_juego"
+	android:icon="@android:drawable/ic_menu_add"
+		android:title="@string/nuevo_juego" 
+		/>
+	<item 
+		android:id="@+id/cambiar_tipo" 
+		android:icon="@android:drawable/ic_menu_preferences"
+		android:title="@string/cambiar_tipo" 
+		>
+		<menu >
+    		<group android:checkableBehavior="single"    		>
+       		 <item android:id="@+id/clasico"
+              android:title="@string/clasico" 
+              android:checked="true"/>
+       		 <item android:id="@+id/siempre_gana"
+              android:title="@string/siempre_gana" />
+              <item android:id="@+id/randomita"
+              android:title="@string/randomita" />
+   			 </group>
+		</menu>		
+	</item>
+		
+	<item 
+	android:id="@+id/ayuda" 
+	android:icon="@android:drawable/ic_menu_help"	
+		android:title="@string/ayuda">
+		<menu >
+    		<group >
+       		 <item android:id="@+id/posiciones"
+              android:title="@string/posiciones" />
+       		 <item android:id="@+id/como"
+              android:title="@string/como" />
+              <item android:id="@+id/historia"
+              android:title="@string/historia" />
+              <item android:id="@+id/Acerca"
+              android:title="@string/acerca" />
+   			 </group>
+		</menu> 
+		</item>
+</menu>

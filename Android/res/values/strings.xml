@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hola Mundo, Estas jugando Piramido, disfruta de destapar fichas : P</string>
+	<string name="app_name">Piramido</string>
+	<string name="nuevo_juego">Nuevo juego</string>
+    <string name="cambiar_tipo">Cambiar Tipo</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="clasico">Clásico</string>
+    <string name="siempre_gana">Siempre Gana</string>
+    <string name="randomita">Randomita</string>
+    <string name="posiciones">Posiciones</string>
+    <string name="como">Cómo jugar</string>
+    <string name="historia">Deicatoria</string>
+    <string name="acerca">Acerca</string>
+    <string name="dialogo_posiciones">Aquí se muestra cómo deben quedar y ser colocadas las fichas de domino. \n Cada número X (del 1 al 6) tiene su fila que va de la 0.X a la X.X</string>
+</resources>
+
+

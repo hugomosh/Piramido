@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:minWidth="300dip"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >/
+    <!--
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/dialogo_posiciones"
+    android:id="@+id/textoArriba"
+    android:paddingTop="1dip"
+    />
+   Fila 0-->
+
+<!--    Boton 0-->
+<ImageButton 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/textoArriba"
+	android:icon="@drawable/do1"
+	android:id="@+id/bo0"	
+	android:src="@drawable/do1"
+	android:clickable="false"
+	/> 
+<!--    Fila 1-->
+<TextView      
+android:layout_width="1dip"
+    android:layout_height="70dip" 
+    android:layout_below="@id/bo0"
+    android:text="."
+    android:layout_centerHorizontal="true"
+    android:id="@+id/fila1"
+    
+    />
+<!--    Boton 1-->
+<ImageButton 
+	
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/bo0"		
+	android:layout_toLeftOf="@id/fila1"
+android:src="@drawable/do2"
+	android:id="@+id/bo1"	
+	android:clickable="false"
+	/> 
+	
+	<!--    Boton 2-->
+<ImageButton 
+	
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo0" 	
+	android:layout_toRightOf="@id/fila1"
+	android:id="@+id/bo2"	
+	android:src="@drawable/do2"
+	android:clickable="false"
+	/> 
+<!--    Fila 2-->
+<!--    Boton 4-->
+<ImageButton 
+ 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/fila1"	
+	android:layout_centerHorizontal="true"
+	android:id="@+id/bo4"	
+	android:src="@drawable/do4"
+	android:clickable="false"
+	/> 
+<!--    Boton 3-->
+<ImageButton 
+
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo1"
+	android:layout_toLeftOf="@id/bo4"
+	android:id="@+id/bo3"	
+	android:src="@drawable/do3"
+	android:clickable="false"
+	/> 
+	<!--    Boton 5-->
+<ImageButton 
+
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo2" 	
+	android:layout_toRightOf="@id/bo4"
+	android:id="@+id/bo5"	
+	android:src="@drawable/do5"
+	android:clickable="false"
+	/> 
+<!--    Fila 3-->
+<TextView      
+	android:layout_width="1dip"
+    android:layout_height="70dip" 
+    android:layout_below="@id/bo4"
+    android:text="."
+    android:layout_centerHorizontal="true"
+    android:id="@+id/fila3"
+    android:clickable="false"
+    />
+<!--    Boton 7-->
+<ImageButton
+ android:onClick="botonazo" 
+	android:layout_width="40dip"
+	android:layout_height="70dip" 	
+	android:layout_below="@id/bo4"		
+	android:layout_toLeftOf="@id/fila3"
+	android:id="@+id/bo7"	
+	android:src="@drawable/do7"
+	android:clickable="false"
+	
+	/> 
+	
+<!--    Boton 8-->
+<ImageButton 
+
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo4" 	
+	android:layout_toRightOf="@id/fila3"
+	android:id="@+id/bo8"
+	android:src="@drawable/do8"	
+	android:clickable="false"
+	/>  
+<!--    Boton 9-->
+<ImageButton 
+	
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo4" 	
+	android:layout_toRightOf="@id/bo8"
+	android:id="@+id/bo9"	
+	android:src="@drawable/do9"
+	android:clickable="false"
+	
+	/>   
+ <!--    Boton 6-->
+<ImageButton 
+
+
+
+	android:layout_width="40dip"
+	android:layout_height="70dip"
+	android:layout_below="@id/bo4" 	
+	android:layout_toLeftOf="@id/bo7"
+	android:id="@+id/bo6"	
+	android:src="@drawable/do6"
+	android:clickable="false"
+	/>   
+<!--    Fila 4-->
+<!--    Boton 12
+<Button android:layout_width="wrap_content"
+ android:text="Vale, a jugar" 
+ android:layout_height="wrap_content"
+  android:id="@+id/button1" 
+ android:layout_below="@id/fila3"
+ android:layout_centerHorizontal="true"
+ android:layout_marginTop="17dip"
+ android:onClick="cierra"></Button>
+-->
+
+	
+</RelativeLayout>
